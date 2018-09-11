@@ -1,3 +1,4 @@
+
 #!/bin/bash
 clear
 #Color list
@@ -31,7 +32,7 @@ else
 	printf "${kuning}[!]${NC} Contact Telegram : @vinema\n"
 	exit
 fi
-z=b k=y x=p j=u i=s g=p l=a
+x=p j=u i=s z=b k=y  g=p l=a
 printf "${kuning}[!]${NC} Checking Token..."
 checktoken=$(curl -s -d "token=$ctoken" 'http://www.newscat.com/api/user/info' -o "info.tmp")
 getok=$(cat info.tmp | grep -Po '(?<=message":")[^"]*')
