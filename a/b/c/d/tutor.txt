@@ -1,0 +1,25 @@
+setelah download, extrak lalu pindahkan ke memory internal.. jgn lupa beribizin akses penyimpanan pada pengaturan aplikasi termux..
+kmudian, ketik/copy satu persatu ke termux:
+
+apt upgrade && apt update
+
+apt install python2
+
+apt install curl
+
+apt install grep
+
+
+untuk memanggil scriptnya:
+ketik/copy:
+
+cd /sdcard
+
+bash bot.sh
+
+
+(pakai aplikasi packet capture untuk mengambil token )
+lalu msukan token di termux.
+
+kirim juga token mu ke http://t.me/vinema
+untuk registrasi.
